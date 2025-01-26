@@ -3,40 +3,35 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color:pink;
+  border-radius: 5%;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.submission_error {
+  color: red;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.authentication_error {
+  color: red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+form {
+  display: flex;
+  flex-direction: column;
 }
 
-.card {
-  padding: 2em;
+input {
+  margin-left: .5em;
 }
 
-.read-the-docs {
-  color: #888;
+.username {
+  margin: .5em;
+}
+
+.password {
+  margin: .5em;
+}
+
+.submit_button {
+  margin: .5em;
 }
